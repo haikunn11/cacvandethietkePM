@@ -9,6 +9,6 @@ public class CashAdapter implements PaymentSystem {
 
     @Override
     public void ProcessPayment(double amount) {
-        return cash.CashPaymentProcessor(amount);
+         cash.CashPaymentProcessor(amount);
     }
 }
