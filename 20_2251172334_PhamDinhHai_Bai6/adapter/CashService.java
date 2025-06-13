@@ -1,7 +1,7 @@
 package adapter;
 
 public class CashService {
-    public boolean CashPaymentProcessor(double amount) {
+    public void CashPaymentProcessor(double amount) {
        System.out.println("Cash: " +amount);
     }
 }
