@@ -1,6 +1,6 @@
 package adapter;
 
-public class CashAdapter implements PaymentProcess {
+public class CashAdapter implements PaymentSystem {
     private CashService cash;
 
     public CashAdapter(CashService cash) {
