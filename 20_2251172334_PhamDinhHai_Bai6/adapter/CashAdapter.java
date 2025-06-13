@@ -8,7 +8,7 @@ public class CashAdapter implements PaymentProcess {
     }
 
     @Override
-    public boolean ProcessPayment(double amount) {
+    public void ProcessPayment(double amount) {
         return cash.CashPaymentProcessor(amount);
     }
 }
