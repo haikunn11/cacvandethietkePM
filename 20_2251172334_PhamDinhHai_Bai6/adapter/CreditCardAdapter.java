@@ -9,6 +9,6 @@ public class CreditCardAdapter implements PaymentSystem {
 
     @Override
     public void ProcessPayment(double amount) {
-        return creditcard.CreditCardPaymentProcessor(amount);
+        creditcard.CreditCardPaymentProcessor(amount);
     }
 }
