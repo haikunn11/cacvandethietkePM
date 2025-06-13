@@ -1,5 +1,5 @@
 package adapter;
 
-public interface PaymentProcess {
+public interface PaymentSystem {
     void ProcessPayment(double amount);
 }
