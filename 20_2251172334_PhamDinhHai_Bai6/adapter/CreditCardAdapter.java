@@ -1,6 +1,6 @@
 package adapter;
 
-public class CreditCardAdapter implements PaymentProcess {
+public class CreditCardAdapter implements PaymentSystem {
     private CreditCardService creditcard;
 
     public CreditCardAdapter(CreditCardService creditcard) {
