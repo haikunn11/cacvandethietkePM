@@ -8,7 +8,7 @@ public class CreditCardAdapter implements PaymentProcess {
     }
 
     @Override
-    public boolean ProcessPayment(double amount) {
+    public void ProcessPayment(double amount) {
         return creditcard.CreditCardPaymentProcessor(amount);
     }
 }
