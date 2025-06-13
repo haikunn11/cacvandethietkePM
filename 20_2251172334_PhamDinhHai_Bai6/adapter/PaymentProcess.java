@@ -1,5 +1,5 @@
 package adapter;
 
 public interface PaymentProcess {
-    boolean ProcessPayment(double amount);
+    void ProcessPayment(double amount);
 }
