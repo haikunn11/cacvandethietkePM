@@ -1,7 +1,7 @@
 package adapter;
 
 public class CreditCardService {
-    public boolean CreditCardPaymentProcessor(double amount) {
+    public void CreditCardPaymentProcessor(double amount) {
         System.out.println("Credit: " +amount);
     }
 }
